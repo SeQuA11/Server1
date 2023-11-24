@@ -1,0 +1,225 @@
+[20:14:04] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[20:14:09] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:14:10] [ServerMain/INFO]: Loaded 7 recipes
+[20:14:11] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:14:11] [Server thread/INFO]: Loading properties
+[20:14:11] [Server thread/INFO]: This server is running Paper version git-Paper-161 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 0c8882f)
+[20:14:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:14:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:14:11] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[20:14:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[20:14:11] [Server thread/WARN]: Unable to read file whitelist.json, backing it up to {0}.backup and creating new copy.
+com.google.gson.JsonSyntaxException: Expected entry to be a JsonObject, was "Fri...it"
+	at net.minecraft.util.GsonHelper.convertToJsonObject(GsonHelper.java:341) ~[?:?]
+	at net.minecraft.server.players.StoredUserList.load(StoredUserList.java:192) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.loadWhiteList(DedicatedPlayerList.java:118) ~[paper-1.20.1.jar:git-Paper-161]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.loadAndSaveFiles(DedicatedPlayerList.java:31) ~[paper-1.20.1.jar:git-Paper-161]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:215) ~[paper-1.20.1.jar:git-Paper-161]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.1.jar:git-Paper-161]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-161]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[20:14:11] [Server thread/INFO]: Default game type: ADVENTURE
+[20:14:11] [Server thread/INFO]: Generating keypair
+[20:14:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:14:12] [Server thread/INFO]: Using default channel type
+[20:14:12] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:14:12] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:14:12] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.4
+[20:14:12] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
+[20:14:14] [Server thread/INFO]: [Chatty] Loading server plugin Chatty v2.19.14
+[20:14:14] [Server thread/INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.5.5
+[20:14:14] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.13
+[20:14:14] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.8.1-SNAPSHOT-571;dccf82a
+[20:14:14] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@f0344eb]
+[20:14:14] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+9-e3e52db
+[20:14:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:14:14] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[20:14:14] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.8.1-SNAPSHOT-571;dccf82a
+[20:14:15] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[20:14:15] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[20:14:15] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:14:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:14:15] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R1.PaperweightFaweAdapter as the Bukkit adapter
+[20:14:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:14:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:14:16] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[20:14:16] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[20:14:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:14:16] [Server thread/INFO]: Preparing level "world"
+[20:14:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:14:16] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 14 build(s) out of date.
+You are running build 571, the latest version is build 585.
+Update at https://www.spigotmc.org/resources/13932/
+[20:14:16] [Server thread/INFO]: Time elapsed: 334 ms
+[20:14:16] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.4
+[20:14:17] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:14:17] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.14
+[20:14:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [2.19.14]
+[20:14:17] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[20:14:17] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.5.5
+[20:14:17] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[20:14:17] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[20:14:17] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[20:14:17] [Server thread/INFO]: [DeluxeHub] 
+[20:14:17] [Server thread/INFO]: [DeluxeHub] Version: 3.5.5
+[20:14:17] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[20:14:17] [Server thread/INFO]: [DeluxeHub] 
+[20:14:17] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[20:14:17] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: while parsing a block collection
+[20:14:17] [Server thread/WARN]:  in 'reader', line 152, column 7:
+[20:14:17] [Server thread/WARN]:           - "&r"
+[20:14:17] [Server thread/WARN]:           ^
+[20:14:17] [Server thread/WARN]: expected <block end>, but found '<scalar>'
+[20:14:17] [Server thread/WARN]:  in 'reader', line 155, column 13:
+[20:14:17] [Server thread/WARN]:           - "&r"Ы
+[20:14:17] [Server thread/WARN]:                 ^
+[20:14:17] [Server thread/WARN]: 
+[20:14:17] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111)
+[20:14:17] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160)
+[20:14:17] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128)
+[20:14:17] [Server thread/WARN]: 	at DeluxeHub-3.5.5.jar//fun.lewisdev.deluxehub.config.ConfigHandler.saveDefaultConfig(ConfigHandler.java:31)
+[20:14:17] [Server thread/WARN]: 	at java.base/java.util.HashMap$Values.forEach(HashMap.java:1065)
+[20:14:17] [Server thread/WARN]: 	at DeluxeHub-3.5.5.jar//fun.lewisdev.deluxehub.config.ConfigManager.loadFiles(ConfigManager.java:26)
+[20:14:17] [Server thread/WARN]: 	at DeluxeHub-3.5.5.jar//fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:77)
+[20:14:17] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[20:14:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[20:14:17] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[20:14:17] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[20:14:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640)
+[20:14:17] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551)
+[20:14:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636)
+[20:14:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435)
+[20:14:17] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:308)
+[20:14:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1101)
+[20:14:17] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
+[20:14:17] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[20:14:17] [Server thread/WARN]: Caused by: while parsing a block collection
+[20:14:17] [Server thread/WARN]:  in 'reader', line 152, column 7:
+[20:14:17] [Server thread/WARN]:           - "&r"
+[20:14:17] [Server thread/WARN]:           ^
+[20:14:17] [Server thread/WARN]: expected <block end>, but found '<scalar>'
+[20:14:17] [Server thread/WARN]:  in 'reader', line 155, column 13:
+[20:14:17] [Server thread/WARN]:           - "&r"Ы
+[20:14:17] [Server thread/WARN]:                 ^
+[20:14:17] [Server thread/WARN]: 
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntryKey.produce(ParserImpl.java:550)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:162)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:277)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:207)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157)
+[20:14:17] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575)
+[20:14:17] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104)
+[20:14:17] [Server thread/WARN]: 	... 18 more
+[20:14:17] [Server thread/ERROR]: [DeluxeHub] ============= CONFIGURATION ERROR =============
+[20:14:17] [Server thread/ERROR]: [DeluxeHub] There was an error loading config.yml
+[20:14:17] [Server thread/ERROR]: [DeluxeHub] Please check for any obvious configuration mistakes
+[20:14:17] [Server thread/ERROR]: [DeluxeHub] such as using tabs for spaces or forgetting to end quotes
+[20:14:17] [Server thread/ERROR]: [DeluxeHub] before reporting to the developer. The plugin will now disable..
+[20:14:17] [Server thread/ERROR]: [DeluxeHub] ============= CONFIGURATION ERROR =============
+[20:14:17] [Server thread/INFO]: [DeluxeHub] Disabling DeluxeHub v3.5.5
+[20:14:17] [Server thread/ERROR]: Error occurred (in the plugin loader) while disabling DeluxeHub v3.5.5 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "fun.lewisdev.deluxehub.module.ModuleManager.unloadModules()" because "this.moduleManager" is null
+	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onDisable(DeluxeHubPlugin.java:113) ~[DeluxeHub-3.5.5.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:224) ~[paper-1.20.1.jar:git-Paper-161]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.20.1.jar:git-Paper-161]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at fun.lewisdev.deluxehub.config.ConfigHandler.saveDefaultConfig(ConfigHandler.java:40) ~[DeluxeHub-3.5.5.jar:?]
+	at java.util.HashMap$Values.forEach(HashMap.java:1065) ~[?:?]
+	at fun.lewisdev.deluxehub.config.ConfigManager.loadFiles(ConfigManager.java:26) ~[DeluxeHub-3.5.5.jar:?]
+	at fun.lewisdev.deluxehub.DeluxeHubPlugin.onEnable(DeluxeHubPlugin.java:77) ~[DeluxeHub-3.5.5.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-161]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-161]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.20.1.jar:git-Paper-161]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:551) ~[paper-1.20.1.jar:git-Paper-161]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:636) ~[paper-1.20.1.jar:git-Paper-161]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:435) ~[paper-1.20.1.jar:git-Paper-161]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.1.jar:git-Paper-161]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.20.1.jar:git-Paper-161]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[paper-1.20.1.jar:git-Paper-161]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[20:14:17] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.13
+[20:14:18] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using MappingSpigotSkinRefresher.
+[20:14:18] [Server thread/INFO]: [SkinsRestorer] -------------------------/Warning\-------------------------
+[20:14:18] [Server thread/INFO]: [SkinsRestorer] This plugin is running in PROXY mode!
+[20:14:18] [Server thread/INFO]: [SkinsRestorer] You have to do all configuration at config file
+[20:14:18] [Server thread/INFO]: [SkinsRestorer] inside your BungeeCord/Velocity server.
+[20:14:18] [Server thread/INFO]: [SkinsRestorer] (<proxy>/plugins/SkinsRestorer/)
+[20:14:18] [Server thread/INFO]: [SkinsRestorer] -------------------------\Warning/-------------------------
+[20:14:18] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+9-e3e52db
+[20:14:19] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:14:19] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:14:20] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[20:14:20] [Server thread/INFO]: [Essentials] Using locale ru_RU
+[20:14:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:14:21] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:14:21] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[20:14:21] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:14:21] [Server thread/INFO]: Running delayed init tasks
+[20:14:21] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Получение информации о версии...
+[20:14:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bungee [2.2]
+[20:14:21] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[20:14:21] [Server thread/INFO]: Done (9.895s)! For help, type "help"
+[20:14:21] [Server thread/INFO]: Timings Reset
+[20:14:21] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:14:21] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[20:14:21] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:14:21] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     |------------------|
+[20:14:21] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     |    Proxy Mode    |
+[20:14:21] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     +==================+
+[20:14:21] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:14:21] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     Current version: 14.2.13
+[20:14:21] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer]     This is the latest version!
+[20:14:21] [Craft Scheduler Thread - 1 - SkinsRestorer/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:14:21] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Вы отстаете на 8 сборок EssentialsX!
+[20:14:21] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Скачайте её отсюда: https://essentialsx.net/downloads.html
+[20:15:56] [User Authenticator #0/INFO]: UUID of player FricherRait is c16de8e7-388c-3833-8154-cc44709293f7
+[20:15:57] [Server thread/INFO]: > FricherRait joined the server.
+[20:15:57] [Server thread/INFO]: FricherRait[/127.0.0.1:58895] logged in with entity id 15 at ([world]-0.8456704573010926, 37.0625, 1.0590323394142338)
+[20:16:37] [Server thread/INFO]: FricherRait lost connection: Disconnected
+[20:16:38] [Server thread/INFO]: > FricherRait left the server.
+[20:17:03] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[20:17:08] [Server thread/INFO]: Stopping the server
+[20:17:08] [Server thread/INFO]: Stopping server
+[20:17:08] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+9-e3e52db
+[20:17:08] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.8.1-SNAPSHOT-571;dccf82a
+[20:17:08] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:17:08] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.13
+[20:17:08] [Server thread/INFO]: [Chatty] Disabling Chatty v2.19.14
+[20:17:08] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[20:17:08] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.4
+[20:17:08] [Server thread/INFO]: Saving players
+[20:17:08] [Server thread/INFO]: Saving worlds
+[20:17:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:17:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:17:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:17:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:17:09] [Server thread/INFO]: [ChunkHolderManager] Saved 625 block chunks, 625 entity chunks, 0 poi chunks in world 'world' in 0.52s
+[20:17:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:17:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:17:09] [Server thread/INFO]: Flushing Chunk IO
+[20:17:09] [Server thread/INFO]: Closing Thread Pool
+[20:17:09] [Server thread/INFO]: Closing Server

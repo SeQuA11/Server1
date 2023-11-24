@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1697735797852
+  login: 1697735757213
+money: '0'
+last-account-name: FricherRait
+logoutlocation:
+  world: de9168f7-5366-49b9-9577-cfc22f9489c2
+  world-name: world
+  x: -4.754337121600327
+  y: 37.0
+  z: 10.847831523277243
+  yaw: -175.70957946777344
+  pitch: 18.680187225341797

@@ -1,0 +1,1 @@
+java -Dpaper.log-level=FINE -jar paper.jar

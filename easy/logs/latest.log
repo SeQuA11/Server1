@@ -1,0 +1,64 @@
+[20:38:01] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[20:38:04] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:38:05] [ServerMain/INFO]: Loaded 7 recipes
+[20:38:06] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:38:06] [Server thread/INFO]: Loading properties
+[20:38:06] [Server thread/INFO]: This server is running Paper version git-Paper-169 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: b4e3b3d)
+[20:38:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:38:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:38:06] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[20:38:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[20:38:06] [Server thread/INFO]: Default game type: SURVIVAL
+[20:38:06] [Server thread/INFO]: Generating keypair
+[20:38:06] [Server thread/INFO]: Starting Minecraft server on *:25567
+[20:38:06] [Server thread/INFO]: Using default channel type
+[20:38:06] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:38:06] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:38:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:38:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:38:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:38:06] [Server thread/WARN]: Whilst this makes it possible to use Velocity, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[20:38:06] [Server thread/WARN]: Please see https://docs.papermc.io/velocity/security for further information.
+[20:38:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:38:06] [Server thread/INFO]: Preparing level "world"
+[20:38:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:38:07] [Server thread/INFO]: Time elapsed: 316 ms
+[20:38:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:38:07] [Server thread/INFO]: Time elapsed: 26 ms
+[20:38:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:38:07] [Server thread/INFO]: Time elapsed: 22 ms
+[20:38:07] [Server thread/INFO]: Running delayed init tasks
+[20:38:07] [Server thread/INFO]: Done (1.379s)! For help, type "help"
+[20:38:07] [Server thread/INFO]: Timings Reset
+[20:38:17] [User Authenticator #0/INFO]: UUID of player FricherRait is c16de8e7-388c-3833-8154-cc44709293f7
+[20:38:18] [Server thread/INFO]: FricherRait joined the game
+[20:38:18] [Server thread/INFO]: FricherRait[/127.0.0.1:51417] logged in with entity id 93 at ([world]-270.9279369570296, 208.45780017308988, 111.30354354977293)
+[20:39:54] [Server thread/INFO]: FricherRait lost connection: Disconnected
+[20:39:54] [Server thread/INFO]: FricherRait left the game
+[20:42:40] [Server thread/INFO]: Stopping server
+[20:42:40] [Server thread/INFO]: Saving players
+[20:42:40] [Server thread/INFO]: Saving worlds
+[20:42:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:42:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:42:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:42:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:42:42] [Server thread/INFO]: [ChunkHolderManager] Saved 1047 block chunks, 923 entity chunks, 0 poi chunks in world 'world' in 1.61s
+[20:42:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:42:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:42:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:42:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:42:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:42:43] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.40s
+[20:42:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:42:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:42:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:42:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:42:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:42:43] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.13s
+[20:42:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:42:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:42:44] [Server thread/INFO]: Flushing Chunk IO
+[20:42:44] [Server thread/INFO]: Closing Thread Pool
+[20:42:44] [Server thread/INFO]: Closing Server
